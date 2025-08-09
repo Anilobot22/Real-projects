@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Table</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='search.css') }}">
+</head>
+<body>
+    <center>
+    <div class="container">
+        <h2 class="head" >Search Table</h2>
+        <form class="box" method="POST">
+            <input class="in" type="text" name="database" placeholder="Enter DataBase Name" required><br>
+            <input class="in" type="text" name="tablename" placeholder="Enter Table Name" required><br>
+            <button class="in" type="submit">View Data</button>
+        </form>
+    </div>
+    </center>
+</body>
+</html>
